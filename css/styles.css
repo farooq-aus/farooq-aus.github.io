@@ -95,8 +95,23 @@ button{
     padding-right: 24px;
 }
 
+.btn-covid {
+    background-color: #00dd99;
+}
+
+.btn-escape {
+    background-color: #f3f3f3;
+}
+
+.btn-escape:hover {
+    box-shadow:3px 3px 16px 16px #f3f3f312
+}
+
+.btn-covid:hover {
+    box-shadow:3px 3px 16px 16px #00dd9912
+}
+
 .btn-send:hover,
-.btn-covid:hover,
 .btn-resume:hover{
     box-shadow:3px 3px 16px 16px #deb88712
 }
@@ -222,8 +237,9 @@ p {
 }
 
 .card-group .card {
-    padding: 7px;
+    padding: 10px;
     border:none;
+    margin: -1%;
 }
 
 .experience {
