@@ -111,6 +111,7 @@ button{
     box-shadow:3px 3px 16px 16px #00dd9912
 }
 
+button:hover,
 .btn-send:hover,
 .btn-resume:hover{
     box-shadow:3px 3px 16px 16px #deb88712
